@@ -134,15 +134,22 @@ def is_palindrome(s):
         palindrome - True if s is a palindrome, False otherwise (boolean)
     -------------------------------------------------------
     """
-    s = s.lower()
     palindrome = True
     index = 0
-    while index < len(s) and palindrome:
-        if s[index] != s[(index + 1) * -1]:
+    negative_index = -1
+    while index <= range(int(len(s)/2)) and palindrome:
+        if not (s[index].isalnum()):
+            index += 1
+        elif not (s[negative_index].isalnum()):
+            negative_index -= 1
+        elif s[index].lower() != s[negative_index].lower():
             palindrome = False
-        index += 1
+            index += 1
+            negative_index -= 1
+        else:
+            index += 1
+            negative_index -= 1
     return palindrome
-
 
 # For task 6
 def max_diff(a):
