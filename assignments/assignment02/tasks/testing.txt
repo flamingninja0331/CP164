@@ -1,0 +1,84 @@
+"""
+------------------------------------------------------------------------
+CP164 Assignment 02, Testing
+------------------------------------------------------------------------
+Author: Your Full Name
+ID:     190401010
+Email:  name1010@mylaurier.ca
+__updated__ = "2022-01-15"
+------------------------------------------------------------------------
+"""
+t01
+Name:       Turducken
+Origin:     American
+Vegetarian: False
+Calories:   12240
+
+Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Calories:   0
+
+Name:       Chicken Wings
+Origin:     American
+Vegetarian: False
+Calories:   298
+
+
+t02
+Average Calories: 280.0
+
+t03
+Average Calories: 300.0
+
+t04
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+BBQ Pork                            Chinese               0      920
+Beef with Green Pepper              Chinese               0      251
+Butter Chicken                      Indian                0      490
+Canada Goose Chili                  Canadian              0      199
+Canuck Burger                       Canadian              0     7500
+Chamuco                             Mexican               1      150
+Chicken Chow Mein                   Chinese               0      178
+Chicken Kabob                       Indian                0      167
+Chicken Wings                       American              0      298
+Chip Butty                          English               1      956
+Chirashi Don                        Japanese              0      600
+Crepe                               Italian               1      186
+Diet Free-Range Gluten-free Water   American              1        0
+Fettuccine                          Italian               0      266
+Fricot                              Canadian              0      360
+Fried Rice                          Chinese               0      425
+General Tao Chicken                 Chinese               0      850
+Greek Salad                         Greek                 1      185
+Grilled Salmon                      Canadian              0      511
+Hokey Pokey Ice Cream               New Zealand           1      106
+Kung Pao Chicken                    Chinese               0      229
+Lasagna                             Italian               0      135
+Lemon Chicken                       Chinese               0      226
+Moo Goo Guy Pan                     Chinese               0      272
+Natto                               Japanese              1      212
+Orange Chicken                      Chinese               0      800
+Panzerotti                          Italian               0      770
+Pavlova                             New Zealand           1      272
+Pepperoni Pizza                     Italian               0      713
+Poutine                             Canadian              0      710
+Ravioli                             Italian               0      246
+Shark Fin Soup                      Chinese               0       46
+Shortbread                          Scottish              1      502
+Spanakopita                         Greek                 1      260
+Spicy Vegetable Moo Shu             Chinese               1      140
+Spring Rolls                        Chinese               1      200
+Sweet and Sour Pork                 Chinese               0      231
+Szechuan Shrimp                     Chinese               0      516
+Teppanyaki                          Japanese              0      200
+Teriyaki                            Japanese              0      233
+Turducken                           American              0    12240
+Vegetable Alicha                    Ethiopian             1      138
+Vegetables with Cashew Nuts         Chinese               1      143
+
+t05
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+Chip Butty                          English               1      956
