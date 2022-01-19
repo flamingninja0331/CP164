@@ -26,10 +26,10 @@ Calories:   298
 
 
 t02
-Average Calories: 280.0
+Average Calories: 280
 
 t03
-Average Calories: 300.0
+Average Calories: 300
 
 t04
 Food                                Origin       Vegetarian Calories
