@@ -153,6 +153,7 @@ def average_calories(foods):
     for food in foods:
         total += food.calories
         avg += 1
+    # I use int() and not // as it sometimes returns a float
     avg = int(total / avg)
     return avg
 

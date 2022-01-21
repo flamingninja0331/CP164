@@ -8,12 +8,14 @@ Email:  name1010@mylaurier.ca
 __updated__ = "2022-01-15"
 ------------------------------------------------------------------------
 """
-from Food_utilities import read_food, calories_by_origin
+from Food_utilities import read_foods, calories_by_origin
 
-gulab_jamun = read_food('Gulab Jamun|2|True|300')
+file = open('food.txt', "rt")
 
-spanakopita = read_food('Spanakopita|5|True|260')
+foods = read_foods(file)
 
-avg = calories_by_origin([gulab_jamun, spanakopita], 2)
+file.close()
+
+avg = calories_by_origin(foods, 2)
 
 print(f"Average Calories: {avg}")
