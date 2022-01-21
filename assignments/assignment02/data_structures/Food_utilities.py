@@ -195,7 +195,7 @@ def food_table(foods):
     print("----------------------------------- ------------ ---------- --------")
     for food in sorted(foods):
         print(
-            f"{food.name:<35} {Food.ORIGIN[food.origin]:<12} {food.is_vegetarian:>10} {food.calories:>8}"
+            f"{food.name:<35} {Food.ORIGIN[food.origin]:<12} {food.is_vegetarian!s:>10} {food.calories:>8}"
         )
     return
 
